@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ict.testcases.EventsTc">
+        <methods>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="displayICSETSubMenu"/>
+          <include name="TearDown"/>
+          <include name="disposeDriver"/>
+          <include name="initializeConfigurations"/>
+        </methods>
+      </class> <!-- com.ict.testcases.EventsTc -->
+      <class name="com.ict.testcases.ContactTC">
+        <methods>
+          <include name="initialization"/>
+          <include name="TearDown"/>
+          <include name="contactformfill"/>
+        </methods>
+      </class> <!-- com.ict.testcases.ContactTC -->
+      <class name="com.ict.testcases.AdminStaffsTC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TableIterate"/>
+          <include name="admin_login"/>
+          <include name="initialization"/>
+          <include name="addNewStaffs"/>
+          <include name="showPage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.ict.testcases.AdminStaffsTC -->
+      <class name="com.ict.testcases.HomepageTC">
+        <methods>
+          <include name="init"/>
+          <include name="homepagedisplay"/>
+          <include name="initialization"/>
+          <include name="TearDown"/>
+          <include name="displayICSETPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ict.testcases.HomepageTC -->
+      <class name="com.ict.testcases.AdminPatronTC">
+        <methods>
+          <include name="addNewEvents"/>
+          <include name="initialization"/>
+          <include name="showPage"/>
+          <include name="TearDown"/>
+          <include name="admin_login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ict.testcases.AdminPatronTC -->
+      <class name="com.ict.testcases.MembershipsTC">
+        <methods>
+          <include name="initialization"/>
+          <include name="showMenu"/>
+          <include name="tearUp"/>
+          <include name="TearDown"/>
+          <include name="tearDown"/>
+          <include name="Academic"/>
+        </methods>
+      </class> <!-- com.ict.testcases.MembershipsTC -->
+      <class name="com.ict.testcases.ICSETEventsTC">
+        <methods>
+          <include name="displayRegisterWindow"/>
+          <include name="initialization"/>
+          <include name="disposeDriver"/>
+          <include name="verifySuccessfullRegistration"/>
+          <include name="TearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ict.testcases.ICSETEventsTC -->
+      <class name="com.ict.testcases.LoginTC">
+        <methods>
+          <include name="tearUp"/>
+          <include name="initialization"/>
+          <include name="TearDown"/>
+          <include name="invalidCredentials"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ict.testcases.LoginTC -->
+      <class name="com.ict.testcases.Admin_CoursesTC">
+        <methods>
+          <include name="initialization"/>
+          <include name="admin_login"/>
+          <include name="TearDown"/>
+          <include name="tearDown"/>
+          <include name="addNewCourse"/>
+        </methods>
+      </class> <!-- com.ict.testcases.Admin_CoursesTC -->
+      <class name="com.ict.testcases.AdminEventsTC">
+        <methods>
+          <include name="TableIterate"/>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="TearDown"/>
+          <include name="showPage"/>
+          <include name="addNewEvents"/>
+          <include name="admin_login"/>
+        </methods>
+      </class> <!-- com.ict.testcases.AdminEventsTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
